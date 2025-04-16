@@ -4,26 +4,38 @@ This repository hosts a Video Summarizer Tool that transforms lengthy videos int
 ✨ Key Features
 
 Audio Transcription: Converts speech from video into text using Hugging Face's Whisper model.
+
 Text Summarization: Uses the Pegasus model to summarize transcribed content effectively.
+
 Intuitive Web Interface: Simple and interactive interface for uploading videos and viewing summaries.
+
 Real-Time Processing: Delivers quick and accurate summaries of uploaded videos.
 
 ⚙️ How It Works
 
 Upload Video: Users upload a video through the web interface.
+
 Extract Audio: The tool extracts audio from the video file.
+
 Transcribe Audio: Whisper transcribes spoken content into text.
+
 Summarize Text: Pegasus condenses the transcribed text into a summary.
+
 Display Summary: The summary is shown on the interface for easy access and download.
 
 📦 Requirements
 
 Python 3.8+
 Required Libraries:
+
 transformers
+
 torch
+
 moviepy
+
 flask
+
 whisper
 
 🧑‍💻 Usage
