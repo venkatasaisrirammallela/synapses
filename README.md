@@ -1,46 +1,86 @@
 # synapses
-This repository contains a Video Summarizer Tool that processes video files to generate concise and meaningful summaries. The tool leverages state-of-the-art AI models like Hugging Face Whisper for audio transcription and Pegasus for text summarization, combined with a user-friendly web interface for seamless interaction.
+This repository hosts a Video Summarizer Tool that transforms lengthy videos into concise summaries using advanced AI models. It combines Whisper for speech-to-text transcription and Pegasus for high-quality summarization, all wrapped in a clean and user-friendly web interface.
 
-Features
-Audio Transcription: Extracts speech from video files using Hugging Face Whisper.
-Text Summarization: Summarizes the transcribed content using the Pegasus model.
-Web Interface: Provides a simple and intuitive interface for video uploads and summary generation.
-Real-Time Processing: Quickly processes video files to generate summaries efficiently.
-How It Works
-Upload a Video: The user uploads a video file through the web interface.
-Audio Extraction: The tool extracts audio from the video.
-Transcription: Speech in the audio is transcribed into text using Whisper.
-Summarization: The transcribed text is summarized using Pegasus to provide concise insights.
-Summary Display: The generated summary is displayed to the user on the interface.
-Requirements
+✨ Key Features
+Audio Transcription: Converts speech from video into text using Hugging Face's Whisper model.
+
+Text Summarization: Uses the Pegasus model to summarize transcribed content effectively.
+
+Intuitive Web Interface: Simple and interactive interface for uploading videos and viewing summaries.
+
+Real-Time Processing: Delivers quick and accurate summaries of uploaded videos.
+
+⚙️ How It Works
+Upload Video: Users upload a video through the web interface.
+
+Extract Audio: The tool extracts audio from the video file.
+
+Transcribe Audio: Whisper transcribes spoken content into text.
+
+Summarize Text: Pegasus condenses the transcribed text into a summary.
+
+Display Summary: The summary is shown on the interface for easy access and download.
+
+📦 Requirements
 Python 3.8+
-Libraries:
+
+Required Libraries:
+
 transformers
+
 torch
+
 moviepy
+
 flask
+
 whisper
-Setup Instructions
+
+🚀 Getting Started
 Clone the repository:
-git clone https://github.com/janakiram180/Video-summarizer-tool.git  
-cd Video-summarizer-tool  
+
+bash
+Copy
+Edit
+git clone https://github.com/janakiram180/Video-summarizer-tool.git
+cd Video-summarizer-tool
 Install dependencies:
-pip install -r requirements.txt  
-Run the application:
-python app.py  
-Open the web interface in your browser:
-http://127.0.0.1:5000  
-Usage
-Upload a video file via the web interface.
-Wait for the tool to process the video and generate the summary.
-View or download the summary from the interface.
-Technologies Used
-Hugging Face Whisper: For accurate speech-to-text transcription.
-Pegasus: For state-of-the-art text summarization.
-Flask: Backend framework for building the web interface.
-MoviePy: For video and audio processing.
-Future Enhancements
-Add support for multiple languages.
-Integrate with cloud storage for larger video files.
-Optimize processing time for longer videos.
-Enhance summarization with user-selectable models.
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Launch the application:
+
+bash
+Copy
+Edit
+python app.py
+Access the web interface:
+Open your browser and navigate to http://127.0.0.1:5000
+
+🧑‍💻 Usage
+Upload a video through the web interface.
+
+Wait while the system processes and summarizes the content.
+
+View or download the generated summary from the same page.
+
+🛠️ Technologies Used
+Whisper (Hugging Face): For robust and multilingual speech recognition.
+
+Pegasus: For cutting-edge text summarization.
+
+Flask: Lightweight backend to serve the web app.
+
+MoviePy: Handles video and audio extraction seamlessly.
+
+🚧 Future Improvements
+Multilingual transcription and summarization support.
+
+Cloud integration for handling large video files.
+
+Performance optimizations for long-duration videos.
+
+Option to choose between different summarization models.
+
