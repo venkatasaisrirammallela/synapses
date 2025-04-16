@@ -42,13 +42,17 @@ whisper
 
 Upload a video through the web interface.
 Wait while the system processes and summarizes the content.
+
 View or download the generated summary from the same page.
 
 🛠️ Technologies Used
 
 Whisper (Hugging Face): For robust and multilingual speech recognition.
+
 Pegasus: For cutting-edge text summarization.
+
 Flask: Lightweight backend to serve the web app.
+
 MoviePy: Handles video and audio extraction seamlessly.
 
 🚧 Future Improvements
